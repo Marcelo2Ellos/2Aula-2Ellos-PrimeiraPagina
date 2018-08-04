@@ -1,0 +1,53 @@
+.img-round {
+  border-radius: 10%;
+  width: 20%;
+}
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -weblit=background-size: cover;
+  -moz-background-site:cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  background-image: url("../img/wallpapper.jpg")
+}
+header .conteudo {
+  position: relative;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+@@media (min-width:768px;) {
+  header{
+    min-height: 100%;
+    text-align: center;
+  }
+  header .conteudo{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+
+  }
+  header .conteudo .item{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+  }
+
+}
+.text-center{
+
+  text-align: center;
+}
